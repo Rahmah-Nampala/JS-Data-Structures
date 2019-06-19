@@ -1,4 +1,4 @@
-// a function which returns prime numbers in an array
+// A function which returns prime numbers in an array
 var isPrime = (num) => { // naming the function that will select whether a number is prime or not
   for (var i = 2; i < num; i++) { 
     if(num % i === 0) return false;
